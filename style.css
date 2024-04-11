@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(169, 24, 48);
+}
+#heading {
+    border: 15px ridge whitesmoke;
+    border-radius: 35px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px;
+    text-shadow: 8px 8px black;
+}
+#name {
+    color: whitesmoke;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+img:hover {
+    width: 320px;
+    height: 240px;
+
+}
+img {
+    border: 2px solid rgba(160, 23, 144, 0);
+    border-radius: 20px;
+}
+
+#courses {
+    border: 15px ridge whitesmoke;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    background-color: rgba(160, 23, 144, 0);
+    margin: 20px;
+}
+figcaption {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    /* max-width: 80px; */
+    color: rgb(246, 243, 243);
+    text-shadow: 4px 4px black; 
+    text-align: center;
+}
+#foot {
+    color: rgb(12, 12, 12);
+    border: 15px ridge black;
+    margin: 20px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.details {
+    text-align: center;
+    border: 10px ridge whitesmoke;
+    border-radius: 15px;
+    margin: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+button {
+    margin: 5px;
+}
+
+
+
+
